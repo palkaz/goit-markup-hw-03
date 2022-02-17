@@ -18,6 +18,30 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* сброс для заголовков */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 :last-child,
+h2 :last-child,
+h3 :last-child,
+h4 :last-child,
+p :last-child {
+  margin-bottom: 0;
+}
+
+.comtainer {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* размеры шрифта навигация контакты */
 .header {
   font-weight: 500;
@@ -153,9 +177,12 @@ body {
 .footer-contact a.link:focus {
   color: var(--accent-color);
 }
-/* скрытие маркера списка */
+/* скрытие маркера списка, сброс отступов для списков */
 .list {
   list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 .portfolio-btn {
