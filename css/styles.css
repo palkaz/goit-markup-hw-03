@@ -1,0 +1,190 @@
+/* палитра цветов */
+:root {
+  --accent-color: #2196f3;
+  --accent-color-hover: #188ce8;
+  --title-color: #212121;
+  --txt-color: #757575;
+  --header-hero-color: #fff;
+  --background-hero-footer: #2f303a;
+  --background-btn-filter: #f5f4fa;
+  --footer-contact: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--txt-color);
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* размеры шрифта навигация контакты */
+.header {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-nav-site .link {
+  color: var(--title-color);
+  text-decoration: none;
+}
+
+.header-nav-site a:hover,
+.header-nav-site a:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.link.current {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.header-contact a.link {
+  color: var(--txt-color);
+  text-decoration: none;
+}
+
+.header-contact a:hover,
+.header-contact a:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-secondary {
+  color: var(--header-hero-color);
+}
+
+.logo-primary {
+  color: var(--title-color);
+}
+
+.hero {
+  background-color: var(--background-hero-footer);
+  color: var(--header-hero-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button-btn {
+  background: var(--accent-color);
+  color: var(--header-hero-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-button-btn:hover,
+.hero-button-btn:focus {
+  background: var(--accent-color-hover);
+}
+
+.benefist-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.userpic {
+  background-color: var(--background-btn-filter);
+}
+
+.example-title,
+.userpic-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.userpic-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-color);
+}
+
+.userpice-txt {
+  color: var(--txt-color);
+}
+
+.footer {
+  background-color: var(--background-hero-footer);
+  color: var(--header-hero-color);
+}
+
+.footer-adress {
+  font-style: normal;
+}
+
+.footer-contact a.link {
+  text-decoration: none;
+  color: var(--footer-contact);
+}
+
+.footer-contact a.link:hover,
+.footer-contact a.link:focus {
+  color: var(--accent-color);
+}
+/* скрытие маркера списка */
+.list {
+  list-style: none;
+}
+
+.portfolio-btn {
+  background: var(--background-btn-filter);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: var(--title-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background: var(--accent-color);
+  color: var(--header-hero-color);
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.portfolio-benefits-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
