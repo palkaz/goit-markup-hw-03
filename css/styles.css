@@ -56,7 +56,8 @@ p :last-child {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.header-wrapper {
+
+.header-contact {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -74,7 +75,7 @@ p :last-child {
   margin: 0;
 }
 
-.header-nav-container {
+.header-nav-site {
   display: flex;
 }
 
