@@ -50,6 +50,34 @@ p :last-child {
   letter-spacing: 0.02em;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-nav {
+  margin-right: 50px;
+}
+
+.header-contact.list {
+  margin-left: auto;
+}
+
+.header-nav:last-child {
+  margin: 0;
+}
+
+.header-nav-container {
+  display: flex;
+}
+
 .header-nav-site .link {
   color: var(--title-color);
   text-decoration: none;
@@ -59,6 +87,10 @@ p :last-child {
 .header-nav-site a:focus {
   color: var(--accent-color);
   text-decoration: none;
+}
+
+.header-phone {
+  margin-left: 50px;
 }
 
 .link.current {
@@ -84,6 +116,8 @@ p :last-child {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  width: 145px;
+  margin-right: 93px;
 }
 
 .logo-secondary {

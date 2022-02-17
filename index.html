@@ -12,48 +12,52 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
     <!-- нормализатор -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-
     <!-- css  -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <section>
-      <div class="container">
-        <header class="header">
-          <!--Основная навигация-->
-          <nav class="header-nav">
-            <a href="" class="logo"
-              >Web<span class="logo-primary">Studio</span></a
-            >
+    <header class="header">
+      <div class="container header-container">
+        <!--Основная навигация-->
+        <a href="" class="logo">Web<span class="logo-primary">Studio</span> </a>
 
-            <!--Ссылки на другие страницы или секции текущей страницы -->
-            <ul class="header-nav-site list">
-              <li class="list">
+        <nav>
+          <!--Ссылки на другие страницы или секции текущей страницы -->
+          <ul class="header-nav-site list">
+            <div class="header-nav-container">
+              <li class="header-nav list">
                 <a class="link current" href="./index.html">Студия</a>
               </li>
-              <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-              <li><a href="" class="link">Контакты</a></li>
-            </ul>
-          </nav>
-          <ul class="header-contact list">
+              <li class="header-nav">
+                <a href="./portfolio.html" class="link">Портфолио</a>
+              </li>
+              <li class="header-nav"><a href="" class="link">Контакты</a></li>
+            </div>
+          </ul>
+        </nav>
+
+        <ul class="header-contact list">
+          <div class="header-wrapper">
             <li>
               <a href="mailto:info@devstudio.com" class="link"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+              <a href="tel:+380961111111" class="link header-phone"
+                >+38 096 111 11 11</a
+              >
             </li>
-          </ul>
-        </header>
+          </div>
+        </ul>
       </div>
-    </section>
+    </header>
+
     <main>
       <!--Секция с заказом услуги-->
       <section class="hero">
