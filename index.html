@@ -24,42 +24,47 @@
   </head>
   <body>
     <section>
-      <header class="header">
-        <!--Основная навигация-->
-        <nav class="header-nav">
-          <a href="" class="logo"
-            >Web<span class="logo-primary">Studio</span></a
-          >
-
-          <!--Ссылки на другие страницы или секции текущей страницы -->
-          <ul class="header-nav-site list">
-            <li class="list">
-              <a class="link current" href="./index.html">Студия</a>
-            </li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
-          </ul>
-        </nav>
-        <ul class="header-contact list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
+      <div class="container">
+        <header class="header">
+          <!--Основная навигация-->
+          <nav class="header-nav">
+            <a href="" class="logo"
+              >Web<span class="logo-primary">Studio</span></a
             >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </header>
+
+            <!--Ссылки на другие страницы или секции текущей страницы -->
+            <ul class="header-nav-site list">
+              <li class="list">
+                <a class="link current" href="./index.html">Студия</a>
+              </li>
+              <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+              <li><a href="" class="link">Контакты</a></li>
+            </ul>
+          </nav>
+          <ul class="header-contact list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </header>
+      </div>
     </section>
     <main>
       <!--Секция с заказом услуги-->
       <section class="hero">
-        <h1 class="hero-title">
-          Эффективные решения<br />
-          для вашего бизнеса
-        </h1>
-        <button type="button" class="hero-button-btn">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title">
+            Эффективные решения<br />
+            для вашего бизнеса
+          </h1>
+
+          <button type="button" class="hero-button-btn">Заказать услугу</button>
+        </div>
       </section>
       <!--Перечисление преимуществ-->
       <section class="benefits">
@@ -104,95 +109,105 @@
       </section>
       <!--Примеры чем мы занимаемся-->
       <section class="example">
-        <h2 class="example-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/img1_sq.jpg"
-              alt="Программист работающий; его рабочий офис"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/img2_sq.jpg"
-              alt="Веб интерфейс.Дизайнеры разрабатывают приложение для Смартфонов. "
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/img3_sq.jpg"
-              alt="Креативный художник. Веб дизайн с рабочим выбором цвета-графическим планшетом."
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="example-title">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li>
+              <img
+                src="./images/img1_sq.jpg"
+                alt="Программист работающий; его рабочий офис"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/img2_sq.jpg"
+                alt="Веб интерфейс.Дизайнеры разрабатывают приложение для Смартфонов. "
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/img3_sq.jpg"
+                alt="Креативный художник. Веб дизайн с рабочим выбором цвета-графическим планшетом."
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Наша команда-->
       <section class="userpic">
-        <h2 class="userpic-title">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/img4_sq.jpg"
-              alt="Игорь Демьяненко Фото"
-              width="270"
-              height="260"
-            />
-            <h3 class="userpic-name">Игорь Демьяненко</h3>
-            <p class="userpic-txt">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/img5_sq.jpg"
-              alt="Ольга Репина Фото"
-              width="270"
-              height="260"
-            />
-            <h3 class="userpic-name">Ольга Репина</h3>
-            <p class="userpic-txt">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/img6_sq.jpg"
-              alt="Николай Тарасов Фото"
-              width="270"
-              height="260"
-            />
-            <h3 class="userpic-name">Николай Тарасов</h3>
-            <p class="userpic-txt">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/img7_sq.jpg"
-              alt="Михаил Ермаков Фото"
-              width="270"
-              height="260"
-            />
-            <h3 class="userpic-name">Михаил Ермаков</h3>
-            <p class="userpic-txt">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="userpic-title">Наша команда</h2>
+          <ul class="list">
+            <li>
+              <img
+                src="./images/img4_sq.jpg"
+                alt="Игорь Демьяненко Фото"
+                width="270"
+                height="260"
+              />
+              <h3 class="userpic-name">Игорь Демьяненко</h3>
+              <p class="userpic-txt">Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="./images/img5_sq.jpg"
+                alt="Ольга Репина Фото"
+                width="270"
+                height="260"
+              />
+              <h3 class="userpic-name">Ольга Репина</h3>
+              <p class="userpic-txt">Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                src="./images/img6_sq.jpg"
+                alt="Николай Тарасов Фото"
+                width="270"
+                height="260"
+              />
+              <h3 class="userpic-name">Николай Тарасов</h3>
+              <p class="userpic-txt">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./images/img7_sq.jpg"
+                alt="Михаил Ермаков Фото"
+                width="270"
+                height="260"
+              />
+              <h3 class="userpic-name">Михаил Ермаков</h3>
+              <p class="userpic-txt">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--Футер-->
     <footer class="footer">
-      <!--Логотип адресс-->
-      <a href="" class="logo">Web<span class="logo-secondary">Studio</span> </a>
-      <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
-      <!--Мыло телефон-->
-      <ul class="footer-contact list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="container">
+        <!--Логотип адресс-->
+        <a href="" class="logo"
+          >Web<span class="logo-secondary">Studio</span>
+        </a>
+        <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
+        <!--Мыло телефон-->
+        <ul class="footer-contact list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

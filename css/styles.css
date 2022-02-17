@@ -36,10 +36,12 @@ p :last-child {
   margin-bottom: 0;
 }
 
-.comtainer {
-  width: 1170px;
+.container {
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* размеры шрифта навигация контакты */
