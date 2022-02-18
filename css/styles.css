@@ -58,8 +58,8 @@ p :last-child {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 0;
-  padding-bottom: 5px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-contact {
@@ -88,11 +88,6 @@ p :last-child {
   color: var(--title-color);
   text-decoration: none;
 }
-/* увеличение поля для фокуса навигации */
-/* .link {
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
 
 .header-nav-site a:hover,
 .header-nav-site a:focus {
@@ -130,10 +125,6 @@ p :last-child {
 
   width: 145px;
   margin-right: 93px;
-  /* увеличение поля для фокуса навигации 
-  правильный отступ по высоте для хедера*/
-  padding-top: 24px;
-  padding-bottom: 20px;
 }
 
 .logo-secondary {
@@ -265,13 +256,14 @@ p :last-child {
 .footer-container {
   display: flex;
   align-items: normal;
-  padding-top: 36px;
+  padding-top: 60px;
   padding-bottom: 60px;
   flex-direction: column;
 }
 
 .footer-adress {
   font-style: normal;
+  padding-top: 20px;
 }
 
 .footer-contact a.link {
@@ -289,7 +281,7 @@ p :last-child {
   flex-direction: column;
 }
 .footer-contact-wrapper {
-  margin-top: 9px;
+  padding-top: 9px;
 }
 
 /* скрытие маркера списка, сброс отступов для списков */
