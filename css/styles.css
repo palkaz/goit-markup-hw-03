@@ -313,8 +313,18 @@ p :last-child {
   justify-content: center;
 }
 
+.test {
+  display: flex;
+  width: 611px;
+  height: 54px;
+}
 .portfolio-btn-wrapper {
   margin-left: 8px;
+}
+
+.portfolio-benefits-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio-btn:hover,
@@ -333,4 +343,23 @@ p :last-child {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+
+  margin: 24px 20px;
+}
+
+.portfolio-benefits-txt {
+  margin: 24px 20px;
+}
+
+.portfolio-exemple {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-exemple:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-exemple:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
