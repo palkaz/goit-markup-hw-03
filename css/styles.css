@@ -58,8 +58,8 @@ p :last-child {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .header-contact {
@@ -89,6 +89,10 @@ p :last-child {
   color: var(--title-color);
   text-decoration: none;
 }
+/* увеличение поля для фокуса навигации */
+.link{
+  padding: 25px;
+  }
 
 .header-nav-site a:hover,
 .header-nav-site a:focus {
@@ -126,6 +130,10 @@ p :last-child {
 
   width: 145px;
   margin-right: 93px;
+  /* увеличение поля для фокуса навигации 
+  правильный отступ по высоте для хедера*/
+  padding-top: 24px;
+  padding-bottom: 25px
 }
 
 .logo-secondary {
@@ -184,7 +192,19 @@ p :last-child {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-color);
+
+  padding-bottom: 10px;
 }
+
+.benefits-wrapper{
+  display: flex;
+}
+
+.benefits-wrapper-benefist{
+  margin-right: 30px;
+}
+
+.benefits-wrapper-benefist:last-child{ margin: 0;}
 
 .userpic {
   background-color: var(--background-btn-filter);
