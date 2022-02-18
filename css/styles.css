@@ -202,14 +202,20 @@ p :last-child {
   margin-right: 30px;
 }
 
-/* .benefits-wrapper:last-child
-{ margin-left: 0;} */
-
-/* .benefits-wrapper-benefist:last-child
-{ margin-left: 0;} */
-
 .userpic {
   background-color: var(--background-btn-filter);
+}
+
+.userpic-line {
+  display: flex;
+}
+
+.userpic-wrapper:first-child {
+  margin: 0;
+}
+
+.userpic-wrapper {
+  margin-left: 30px;
 }
 
 .example-title,
@@ -240,10 +246,14 @@ p :last-child {
   font-size: 16px;
   line-height: 1.19;
   color: var(--title-color);
+
+  text-align: center;
 }
 
-.userpice-txt {
+.userpic-txt {
   color: var(--txt-color);
+
+  text-align: center;
 }
 
 .footer {
