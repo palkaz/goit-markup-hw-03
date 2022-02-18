@@ -59,7 +59,7 @@ p :last-child {
   display: flex;
   align-items: center;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 5px;
 }
 
 .header-contact {
@@ -89,9 +89,10 @@ p :last-child {
   text-decoration: none;
 }
 /* увеличение поля для фокуса навигации */
-.link {
-  padding: 25px;
-}
+/* .link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
 
 .header-nav-site a:hover,
 .header-nav-site a:focus {
@@ -132,7 +133,7 @@ p :last-child {
   /* увеличение поля для фокуса навигации 
   правильный отступ по высоте для хедера*/
   padding-top: 24px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .logo-secondary {
@@ -261,6 +262,14 @@ p :last-child {
   color: var(--header-hero-color);
 }
 
+.footer-container {
+  display: flex;
+  align-items: normal;
+  padding-top: 36px;
+  padding-bottom: 60px;
+  flex-direction: column;
+}
+
 .footer-adress {
   font-style: normal;
 }
@@ -274,6 +283,15 @@ p :last-child {
 .footer-contact a.link:focus {
   color: var(--accent-color);
 }
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer-contact-wrapper {
+  margin-top: 9px;
+}
+
 /* скрытие маркера списка, сброс отступов для списков */
 .list {
   list-style: none;
