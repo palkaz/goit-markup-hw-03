@@ -301,8 +301,20 @@ p :last-child {
   text-align: center;
   color: var(--title-color);
   cursor: pointer;
+
   border: none;
   border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.portfolio-btn-filter {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-btn-wrapper {
+  margin-left: 8px;
 }
 
 .portfolio-btn:hover,
