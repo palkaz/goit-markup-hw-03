@@ -44,8 +44,8 @@ p :last-child {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -54,24 +54,29 @@ p :last-child {
 .header {
   font-weight: 500;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-container {
+  border-bottom: 1px solid var(--header-line-color);
+
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid var(--header-line-color);
+}
+
+.header-contact-site {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .header-contact {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+  margin-right: 50px;
 }
 
-.header-contact.list {
-  margin-left: auto;
+.header-contact:last-child {
+  margin: 0;
 }
 
 .header-nav:last-child {
@@ -97,9 +102,9 @@ p :last-child {
   text-decoration: none;
 }
 
-.header-phone {
+/* .header-phone {
   margin-left: 50px;
-}
+} */
 
 .link.current {
   color: var(--accent-color);
@@ -141,6 +146,8 @@ p :last-child {
   background-color: var(--background-hero-footer);
   color: var(--header-hero-color);
 
+  padding-top: 94px;
+  padding-bottom: 94px;
   height: 600px;
   text-align: center;
 }
@@ -194,10 +201,15 @@ p :last-child {
 
 .benefits-wrapper-benefist {
   margin-right: 30px;
+  padding-left: 94px;
+  padding-right: 94px;
 }
 
 .userpic {
   background-color: var(--background-btn-filter);
+
+  padding-left: 94px;
+  padding-right: 94px;
 }
 
 .userpic-line {
@@ -221,6 +233,11 @@ p :last-child {
   color: var(--title-color);
 
   margin-bottom: 50px;
+}
+
+.example {
+  padding-left: 94px;
+  padding-right: 94px;
 }
 
 .example-wrapper {
