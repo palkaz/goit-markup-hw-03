@@ -44,8 +44,6 @@ p :last-child {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -102,10 +100,6 @@ p :last-child {
   text-decoration: none;
 }
 
-/* .header-phone {
-  margin-left: 50px;
-} */
-
 .link.current {
   color: var(--accent-color);
   text-decoration: none;
@@ -130,8 +124,7 @@ p :last-child {
   font-size: 26px;
   line-height: 1.19;
 
-  width: 145px;
-  margin-right: 93px;
+  margin-bottom: 20px;
 }
 
 .logo-secondary {
@@ -146,9 +139,8 @@ p :last-child {
   background-color: var(--background-hero-footer);
   color: var(--header-hero-color);
 
-  padding-top: 94px;
-  padding-bottom: 94px;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -159,7 +151,6 @@ p :last-child {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  margin-top: 106px;
   margin-bottom: 30px;
 }
 
@@ -186,7 +177,7 @@ p :last-child {
   background: var(--accent-color-hover);
 }
 
-.benefist-title {
+.benefits-title {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -195,16 +186,21 @@ p :last-child {
   padding-bottom: 10px;
 }
 
+.benefits {
+  padding-top: 94px;
+}
+
 .benefits-wrapper {
   display: flex;
 }
 
-.benefits-wrapper-benefist {
+.benefits-wrapper-benefits {
   margin-right: 30px;
-  padding-left: 94px;
-  padding-right: 94px;
 }
 
+.benefits-wrapper-benefits:last-child {
+  margin: 0;
+}
 .userpic {
   background-color: var(--background-btn-filter);
 
@@ -236,8 +232,8 @@ p :last-child {
 }
 
 .example {
-  padding-left: 94px;
-  padding-right: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .example-wrapper {
@@ -252,6 +248,11 @@ p :last-child {
   margin-left: 30px;
 }
 
+.userpic {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .userpic-name {
   font-weight: 500;
   font-size: 16px;
@@ -259,6 +260,11 @@ p :last-child {
   color: var(--title-color);
 
   text-align: center;
+}
+
+.userpic-wrapper-txt {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .userpic-txt {
@@ -270,19 +276,13 @@ p :last-child {
 .footer {
   background-color: var(--background-hero-footer);
   color: var(--header-hero-color);
-}
 
-.footer-container {
-  display: flex;
-  align-items: normal;
   padding-top: 60px;
   padding-bottom: 60px;
-  flex-direction: column;
 }
 
 .footer-adress {
   font-style: normal;
-  padding-top: 20px;
 }
 
 .footer-contact a.link {
