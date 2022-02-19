@@ -123,8 +123,6 @@ p :last-child {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  margin-bottom: 20px;
 }
 
 .logo-secondary {
@@ -283,6 +281,7 @@ p :last-child {
 
 .footer-adress {
   font-style: normal;
+  margin-bottom: 9px;
 }
 
 .footer-contact a.link {
@@ -298,17 +297,25 @@ p :last-child {
 .footer-contact {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
+
+.footer-contact-wrapper:last-child {
+  margin: 0;
+}
+
 .footer-contact-wrapper {
-  padding-top: 9px;
+  margin-bottom: 9px;
+}
+
+.footer-logo-wrapper {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 /* скрытие маркера списка, сброс отступов для списков */
 .list {
   list-style: none;
-  margin-top: 0;
-  padding-left: 0;
-  margin-bottom: 0;
 }
 
 .portfolio-btn {
