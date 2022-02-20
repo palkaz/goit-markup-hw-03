@@ -31,6 +31,9 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+ul {
+  padding-inline-start: 0px;
+}
 
 h1 :last-child,
 h2 :last-child,
@@ -54,11 +57,11 @@ p :last-child {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 25px;
+
+  border-bottom: 1px solid var(--header-line-color);
 }
 
 .header-container {
-  border-bottom: 1px solid var(--header-line-color);
-
   display: flex;
   align-items: center;
 }
@@ -123,6 +126,8 @@ p :last-child {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  margin-right: 93px;
 }
 
 .logo-secondary {
@@ -246,11 +251,6 @@ p :last-child {
   margin-left: 30px;
 }
 
-.userpic {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .userpic-name {
   font-weight: 500;
   font-size: 16px;
@@ -311,6 +311,7 @@ p :last-child {
 .footer-logo-wrapper {
   display: inline-block;
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 /* скрытие маркера списка, сброс отступов для списков */
@@ -345,7 +346,7 @@ p :last-child {
   display: flex;
   justify-content: center;
   padding: 0;
-  margin-bottom: 54px;
+  margin-bottom: 50px;
 }
 
 .portfolio-btn-wrapper {
@@ -373,8 +374,6 @@ p :last-child {
 }
 
 .portfolio-benefits-cards {
-  display: block;
-  margin-top: -8px;
   padding: 20px 24px;
   border-left: 1px solid var(--header-line-color);
   border-bottom: 1px solid var(--header-line-color);
@@ -399,4 +398,11 @@ p :last-child {
 
 .portfolio-exemple:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+
+/* делаем картинки из строчных в блочные
+заполнение 100% */
+.img {
+  display: block;
+  max-width: 100%;
 }
