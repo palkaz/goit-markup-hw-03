@@ -55,8 +55,6 @@ p :last-child {
 .header {
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 25px;
 
   border-bottom: 1px solid var(--header-line-color);
 }
@@ -82,6 +80,12 @@ p :last-child {
 
 .header-nav:last-child {
   margin: 0;
+}
+
+/* увиличение кликабельной области */
+.header-link {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-nav {
