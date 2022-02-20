@@ -373,12 +373,13 @@ p :last-child {
 }
 
 .portfolio-benefits-cards {
+  display: block;
+  margin-top: -8px;
   padding: 20px 24px;
   border-left: 1px solid var(--header-line-color);
   border-bottom: 1px solid var(--header-line-color);
   border-right: 1px solid var(--header-line-color);
 }
-
 .portfolio-benefits-title {
   font-weight: 700;
   font-size: 18px;
