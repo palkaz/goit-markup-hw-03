@@ -336,26 +336,30 @@ p :last-child {
   padding-left: 22px;
 }
 
-.portfolio-conteiner {
-  padding-bottom: 0;
-}
-
-.container-portfolio-benefits {
-  padding-top: 50px;
+.portfolio-benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-btn-filter {
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin-bottom: 54px;
 }
 
 .portfolio-btn-wrapper {
   margin-left: 8px;
 }
 
+.portfolio-btn-wrapper:first-child {
+  margin-left: 0;
+}
+
 .portfolio-benefits-wrapper {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
 }
 
 .portfolio-btn:hover,
@@ -368,24 +372,24 @@ p :last-child {
   border-radius: 4px;
 }
 
+.portfolio-benefits-cards {
+  padding: 20px 24px;
+  border-left: 1px solid var(--header-line-color);
+  border-bottom: 1px solid var(--header-line-color);
+  border-right: 1px solid var(--header-line-color);
+}
+
 .portfolio-benefits-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
-
-  margin: 24px 20px;
-}
-
-.portfolio-benefits-txt {
-  margin: 24px 20px;
 }
 
 .portfolio-exemple {
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid var(--header-line-color);
 }
 
 .portfolio-exemple:nth-child(3n) {

@@ -26,7 +26,7 @@
         <!--Основная навигация-->
         <a href="" class="logo">Web<span class="logo-primary">Studio</span></a>
 
-        <nav class="header-nav">
+        <nav>
           <!--Ссылки на другие страницы или секции текущей страницы -->
           <ul class="header-nav-site list">
             <li class="header-nav">
@@ -39,16 +39,14 @@
           </ul>
         </nav>
 
-        <ul class="header-contact list">
-          <li>
+        <ul class="header-contact-site list">
+          <li class="header-contact">
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class="link header-phone"
-              >+38 096 111 11 11</a
-            >
+          <li class="header-contact">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -58,10 +56,8 @@
       <h1 hidden class="portfolio">Портфолио</h1>
 
       <!--Фильтр на странице списком кнопок-->
-      <section class="portfolio-filter">
-        <div class="container portfolio-conteiner">
-          <h2 hidden>Фильтр на странице</h2>
-
+      <section class="portfolio-benefits">
+        <div class="container">
           <ul class="portfolio-btn-filter list">
             <li class="portfolio-btn-wrapper">
               <button type="button" class="portfolio-btn">Все</button>
@@ -79,11 +75,8 @@
               <button type="button" class="portfolio-btn">Маркетинг</button>
             </li>
           </ul>
-        </div>
-      </section>
-      <!--Примеры работ-->
-      <section class="portfolio-benefits">
-        <div class="container container-portfolio-benefits">
+
+          <!--Примеры работ-->
           <h2 hidden>Примеры работ</h2>
           <ul class="portfolio-benefits-wrapper list">
             <li class="portfolio-exemple">
@@ -93,8 +86,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="portfolio-benefits-title">Технокряк</h3>
-              <p class="portfolio-benefits-txt">Веб-сайт</p>
+              <div class="portfolio-benefits-cards">
+                <h3 class="portfolio-benefits-title">Технокряк</h3>
+                <p class="portfolio-benefits-txt">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-exemple">
               <img
@@ -103,10 +98,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="portfolio-benefits-title">
-                Постер <span lang="en"> Orlean vs Golden Star</span>
-              </h3>
-              <p class="portfolio-benefits-txt">Дизайн</p>
+              <div class="portfolio-benefits-cards">
+                <h3 class="portfolio-benefits-title">
+                  Постер <span lang="en"> Orlean vs Golden Star</span>
+                </h3>
+                <p class="portfolio-benefits-txt">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-exemple">
               <img
@@ -115,10 +112,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="portfolio-benefits-title">
-                Ресторан <span lang="en">Seafood</span>
-              </h3>
-              <p class="portfolio-benefits-txt">Приложение</p>
+              <div class="portfolio-benefits-cards">
+                <h3 class="portfolio-benefits-title">
+                  Ресторан <span lang="en">Seafood</span>
+                </h3>
+                <p class="portfolio-benefits-txt">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-exemple">
               <img
@@ -127,10 +126,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="portfolio-benefits-title">
-                Проект <span lang="en">Prime</span>
-              </h3>
-              <p class="portfolio-benefits-txt">Маркетинг</p>
+              <div class="portfolio-benefits-cards">
+                <h3 class="portfolio-benefits-title">
+                  Проект <span lang="en">Prime</span>
+                </h3>
+                <p class="portfolio-benefits-txt">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-exemple">
               <img
@@ -139,10 +140,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="portfolio-benefits-title">
-                Проект <span lang="en">Boxes</span>
-              </h3>
-              <p class="portfolio-benefits-txt">Приложение</p>
+              <div class="portfolio-benefits-cards">
+                <h3 class="portfolio-benefits-title">
+                  Проект <span lang="en">Boxes</span>
+                </h3>
+                <p class="portfolio-benefits-txt">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-exemple">
               <img
@@ -151,10 +154,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="portfolio-benefits-title">
-                <span lang="eu">Inspiration has no Borders</span>
-              </h3>
-              <p class="portfolio-benefits-txt">Веб-сайт</p>
+              <div class="portfolio-benefits-cards">
+                <h3 class="portfolio-benefits-title">
+                  <span lang="eu">Inspiration has no Borders</span>
+                </h3>
+                <p class="portfolio-benefits-txt">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-exemple">
               <img
@@ -163,10 +168,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="portfolio-benefits-title">
-                Издание <span lang="en">Limited Edition</span>
-              </h3>
-              <p class="portfolio-benefits-txt">Дизайн</p>
+              <div class="portfolio-benefits-cards">
+                <h3 class="portfolio-benefits-title">
+                  Издание <span lang="en">Limited Edition</span>
+                </h3>
+                <p class="portfolio-benefits-txt">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-exemple">
               <img
@@ -175,10 +182,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="portfolio-benefits-title">
-                Проект <span lang="en">LAB</span>
-              </h3>
-              <p class="portfolio-benefits-txt">Маркетинг</p>
+              <div class="portfolio-benefits-cards">
+                <h3 class="portfolio-benefits-title">
+                  Проект <span lang="en">LAB</span>
+                </h3>
+                <p class="portfolio-benefits-txt">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-exemple">
               <img
@@ -187,20 +196,22 @@
                 width="370"
                 height="294"
               />
-              <h3 class="portfolio-benefits-title">
-                <span lang="en">Growing Business</span>
-              </h3>
-              <p class="portfolio-benefits-txt">Приложение</p>
+              <div class="portfolio-benefits-cards">
+                <h3 class="portfolio-benefits-title">
+                  <span lang="en">Growing Business</span>
+                </h3>
+                <p class="portfolio-benefits-txt">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-
+    <!--Футер-->
     <footer class="footer">
-      <div class="container footer-container">
+      <div class="container">
         <!--Логотип адресс-->
-        <a href="" class="logo"
+        <a href="" class="logo footer-logo-wrapper"
           >Web<span class="logo-secondary">Studio</span>
         </a>
         <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
