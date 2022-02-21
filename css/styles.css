@@ -212,8 +212,8 @@ p :last-child {
 .userpic {
   background-color: var(--background-btn-filter);
 
-  padding-left: 94px;
-  padding-right: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .userpic-line {
@@ -299,12 +299,6 @@ p :last-child {
   color: var(--accent-color);
 }
 
-.footer-contact {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
-
 .footer-contact-wrapper:last-child {
   margin: 0;
 }
@@ -340,6 +334,20 @@ p :last-child {
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
+}
+
+.portfolio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .portfolio-benefits {
